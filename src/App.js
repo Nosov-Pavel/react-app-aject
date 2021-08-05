@@ -1,20 +1,19 @@
-import Header from "./Header";
-import Footer from "./Footer";
-import Midl from "./Midl";
-import LastOne from "./LastOne";
-import FistOne from "./FistOne";
+import Today from "./Today";
 
-function App() {
-  return (
-    <div>
-     App component
-        <Header />
-        <FistOne />
-        <Midl />
-        <Footer />
-        <LastOne />
-    </div>
-  );
+function App(){
+    const name = 'Alice';
+
+    const hello = name => `Hello ${name}`;
+
+
+
+    return(
+        <div>
+            {Today}
+            {hello(name)}
+            {hello('Bob')}
+        </div>
+    )
 }
 
 export default App;
