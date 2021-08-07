@@ -4,6 +4,10 @@ function App(){
     let number = 5;
 
     const buttonPlus = () => {
+        console.log('Click!')
+
+        number--;
+        console.log('newNumber', number);
 
     }
 
