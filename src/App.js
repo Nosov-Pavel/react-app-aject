@@ -1,6 +1,11 @@
 
-import React from "react";
+import React, {}
+import {useState} from "react";
+
+useState from "react";
 function App(){
+    const [counter, setCounter] = useState(3);
+
     let number = 5;
 
     const buttonPlus = () => {
