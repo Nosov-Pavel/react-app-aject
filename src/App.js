@@ -1,17 +1,17 @@
-import Today from "./Today";
 
+import React from "react";
 function App(){
-    const name = 'Alice';
+    let number = 5;
 
-    const hello = name => `Hello ${name}`;
+    const buttonPlus = () => {
 
-
+    }
 
     return(
         <div>
-            {Today}
-            {hello(name)}
-            {hello('Bob')}
+            {number}
+            <button onClick={buttonPlus}>+</button>
+
         </div>
     )
 }
