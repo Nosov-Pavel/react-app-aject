@@ -1,16 +1,18 @@
-import React from "react";
+import React, {useState} from "react";
 
 function App() {
 
-let number = 5;
+    const [counter, setCounter] = useState(5);
 
-const buttonPlus = () => {
 
+
+    const buttonPlus = () => {
+        setCounter(12)
 }
 
     return(
         <div>
-            {number}
+            {counter}
             <button onClick={buttonPlus}>+</button>
         </div>
     )
