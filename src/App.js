@@ -1,38 +1,15 @@
-import React, {useState} from "react";
-
 function App() {
-    const [counter, setCounter] = useState(5);
 
-    const [newCounter, setNewCounter] = useState(4);
+    const names = ['ALice', 'Bob', 'Jim'];
 
-    const newButtonMinus = () =>{
-        setNewCounter(newCounter-1)
-    }
-
-    const newButtonPlus = () => {
-        setNewCounter(newCounter+1)
-    }
-
-    const buttonPlus = () => {
-        setCounter(counter +1)
-    }
-    const buttonMinus = () => {
-        setCounter(counter -1)
-    }
 
 
     return (
         <div>
-            <button onClick={newButtonMinus}>-</button>
-            {newCounter}
-            <button onClick={newButtonPlus}>+</button>
-            <br/>
-            <button onClick={buttonMinus}>-</button>
-            {counter}
-            <button onClick={buttonPlus}>+</button>
+            {names}
         </div>
-    )
 
+    );
 }
 
-    export default App;
+export default App;
