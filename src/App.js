@@ -1,6 +1,13 @@
 function App() {
 
-    const names = ['ALice', 'Bob', 'Jim'];
+    const names = ['ALice', 'Bob', 'Jim', 'Zoe'];
+
+    const list = [
+        <li>{names[0]}</li>,
+        <li>{names[1]}</li>,
+        <li>{names[2]}</li>
+
+    ]
 
 
 
@@ -8,9 +15,7 @@ function App() {
         <div>
             {names}
             <ul>
-                <li>{names[0]}</li>
-                <li>{names[1]}</li>
-                <li>{names[2]}</li>
+                {list}
             </ul>
         </div>
 
