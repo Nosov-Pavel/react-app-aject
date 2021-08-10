@@ -2,12 +2,10 @@ function App() {
 
     const names = ['ALice', 'Bob', 'Jim', 'Zoe'];
 
-    const list = [
-        <li>{names[0]}</li>,
-        <li>{names[1]}</li>,
-        <li>{names[2]}</li>
-
-    ]
+    const list = []
+    for (let i = 0; i < names.lenght; i++){
+         list.push(<li>{names[i]}</li>)
+    }
 
 
 
