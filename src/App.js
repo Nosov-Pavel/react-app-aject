@@ -5,6 +5,10 @@ function App() {
 
     const [newCounter, setNewCounter] = useState(4);
 
+    const newButtonMinus = () =>{
+        setNewCounter(newCounter-1)
+    }
+
     const newButtonPlus = () => {
         setNewCounter(newCounter+1)
     }
@@ -19,7 +23,7 @@ function App() {
 
     return (
         <div>
-            {/*<button onClick={}>-</button>*/}
+            <button onClick={newButtonMinus}>-</button>
             {newCounter}
             <button onClick={newButtonPlus}>+</button>
             <br/>
