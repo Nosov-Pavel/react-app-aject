@@ -2,15 +2,12 @@ function App() {
 
     const names = ['ALice', 'Bob', 'Jim', 'Zoe'];
 
-    const list = names.map(el =><li>{el}</li>)
-
-
 
     return (
         <div>
             {names}
             <ul>
-                {list}
+                {names.map(el =><li>{el}</li>)}
             </ul>
         </div>
 
