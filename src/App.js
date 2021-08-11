@@ -1,5 +1,32 @@
 function App() {
 
+    const address = [
+        {
+            id: '1.1',
+            state : 'Fl',
+            city : 'Miami',
+            street : 'Coral Dr. Avenue',
+        } ,
+        {
+            id: '2.1',
+            state : 'NY',
+            city : 'New York',
+            street : 'Manhattan',
+        },
+        {
+            id: '3.1',
+            state : 'ND',
+            city : 'New Jersey',
+            street : 'Coral Dr. Avenue 17',
+        },
+        {
+            id: '4.1',
+            state : 'AT',
+            city : 'Atlanta',
+            street : 'Coral Dr. Aveny 21',
+        }
+    ];
+
     const names = [
         {
             id: '1',
@@ -25,6 +52,8 @@ function App() {
 
     return (
         <div>
+            {/*{address.map(el => )}*/}
+            <hr/>
             <ul>
                 {names.map(el => <li key={el.id}>{el.title} {el.phone}</li>)}
             </ul>
