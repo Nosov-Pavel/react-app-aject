@@ -8,7 +8,7 @@ function App() {
 
     return (
         <div>
-            <TopMenu/>
+            <TopMenu v={version}/>
           <TaskList siteName={name} veris={version}/>
         </div>
 

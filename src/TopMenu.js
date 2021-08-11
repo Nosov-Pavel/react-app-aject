@@ -1,6 +1,6 @@
-function TopMenu(){
+function TopMenu(props){
     return(
-        <div>MENU</div>
+        <div>MENU {props.v}</div>
     )
 }
 
