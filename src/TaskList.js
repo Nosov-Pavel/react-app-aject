@@ -1,4 +1,4 @@
-function TaskList(){
+function TaskList(props){
     return(
         <ul>
             <li>Task 1</li>
