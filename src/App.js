@@ -7,21 +7,25 @@ function App() {
             state : 'Fl',
             city : 'Miami',
             street : 'Coral Dr. Avenue',
+
         } ,
         {
             id: '2.1',
+            title: 'name - Bob',
             state : 'NY',
             city : 'New York',
             street : 'Manhattan',
         },
         {
             id: '3.1',
+            title: 'name - Zoe',
             state : 'ND',
             city : 'New Jersey',
             street : 'Coral Dr. Avenue 17',
         },
         {
             id: '4.1',
+            title: 'name - Jim',
             state : 'AT',
             city : 'Atlanta',
             street : 'Coral Dr. Aveny 21',
@@ -52,7 +56,8 @@ function App() {
     return (
         <div>
             <ul>
-                {address.map(el => <li key={el.id}> {el.title} <br/> {el.state} <br/>{el.city} <br/>{el.street}</li>)}
+                {address.map(el => <li key={el.id}> {el.title} <br/>
+                    {el.state} <br/>{el.city} <br/>{el.street}</li>)}
             </ul>
             <hr/>
             <ul>
