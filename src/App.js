@@ -52,7 +52,7 @@ function App() {
     return (
         <div>
             <ul>
-                {address.map(el => <li key={el.id}> {el.title} {el.state} {el.city}, {el.street}</li>)}
+                {address.map(el => <li key={el.id}> {el.title} <br/> {el.state} <br/>{el.city} <br/>{el.street}</li>)}
             </ul>
             <hr/>
             <ul>
