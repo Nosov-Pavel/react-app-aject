@@ -3,7 +3,7 @@ function TaskList(props){
     return(
         <ul>
             <li>{props.siteName}</li>
-            <li>Task 2</li>
+            <li>{props.veris}</li>
             <li>Task 3</li>
         </ul>
     )
