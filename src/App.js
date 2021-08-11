@@ -52,7 +52,9 @@ function App() {
 
     return (
         <div>
-            {/*{address.map(el => )}*/}
+            <ul>
+                {address.map(el => <li key={el.id}> {el.state} {el.city}, {el.street}</li>)}
+            </ul>
             <hr/>
             <ul>
                 {names.map(el => <li key={el.id}>{el.title} {el.phone}</li>)}
