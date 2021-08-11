@@ -3,6 +3,7 @@ function App() {
     const address = [
         {
             id: '1.1',
+            title: 'name - Alice',
             state : 'Fl',
             city : 'Miami',
             street : 'Coral Dr. Avenue',
@@ -48,12 +49,10 @@ function App() {
             title: 'Jim',
             phone: '777-333-37-33'
         }];
-
-
     return (
         <div>
             <ul>
-                {address.map(el => <li key={el.id}> {el.state} {el.city}, {el.street}</li>)}
+                {address.map(el => <li key={el.id}> {el.title} {el.state} {el.city}, {el.street}</li>)}
             </ul>
             <hr/>
             <ul>
