@@ -1,3 +1,5 @@
+import TopMenu from "./TopMenu";
+
 function TaskList(props){
     console.log(props)
     return(
@@ -5,6 +7,8 @@ function TaskList(props){
             <li>{props.siteName}</li>
             <li>{props.veris}</li>
             <li>Task 3</li>
+
+            <TopMenu version={props.veris} />
         </ul>
     )
 }
