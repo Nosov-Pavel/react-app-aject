@@ -9,7 +9,7 @@ function App() {
     return (
         <div>
             <TopMenu/>
-          <TaskList siteName={name}/>
+          <TaskList siteName={name} veris={version}/>
         </div>
 
     );
