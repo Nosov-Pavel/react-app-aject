@@ -1,8 +1,9 @@
-function TaskList(){
+function TaskList(props){
+
     return(
         <ul>
-            <li>Task1</li>
-            <li>Task2</li>
+            <li>{props.siteName}</li>
+            <li>{props.version}</li>
             <li>Task3</li>
         </ul>
 
