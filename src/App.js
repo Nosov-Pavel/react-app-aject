@@ -2,13 +2,20 @@ import './App.css';
 function App(){
 
     const storeName = 'I am Who I am';
-    const address = 'FL'
+    const city = 'FL';
+    const house = '1616';
+    const street = '7Avenu';
+    const zipCode = '32903';
+    const phoneNumber = '+1321116108';
+
 
 
     
     return(
-        <div>
+        <div className = "App">
             <h1>{storeName}</h1>
+
+            <p>address: {city} - {house} - {street} - {zipCode} - {phoneNumber}</p>
 
         </div>
     );
