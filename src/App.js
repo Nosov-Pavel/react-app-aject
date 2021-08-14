@@ -14,11 +14,13 @@ function App(){
     return(
         <div className = "App">
             <h1>{storeName}</h1>
+            <hr/>
 
             <p>Address: {city} - {house} - {street} - {zipCode} -</p>
             <p>Phone: {phoneNumber}</p>
 
-            <p>Natural linen Hoodie <br/>50% discount</p>
+            <p>Clothes made from natural linen <br/>50% discount</p>
+            <hr/>
 
         </div>
     );
