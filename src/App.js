@@ -1,7 +1,8 @@
-
+import './App.css';
 function App(){
 
-    const storeName = 'I am How I am'
+    const storeName = 'I am Who I am';
+    const address = 'FL'
 
 
     
