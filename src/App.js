@@ -33,6 +33,11 @@ function App(){
             <p>price: ${price}</p>
             <button>-</button> 1 <button>+</button> {' '}<button>Buy</button>
 
+            <hr/>
+            <ul>
+                <li>about us</li>
+            </ul>
+
 
 
         </div>
