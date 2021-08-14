@@ -28,7 +28,9 @@ function App(){
             <h2>{brand}</h2>
 
             <hr/>
-            <p></p>
+            <p>product1: {productName}</p>
+            <p>description1: {productDescription}</p>
+
 
         </div>
     );
