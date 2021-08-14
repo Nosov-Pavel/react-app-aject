@@ -18,6 +18,8 @@ function App(){
             <p>Address: {city} - {house} - {street} - {zipCode} -</p>
             <p>Phone: {phoneNumber}</p>
 
+            <p>Natural linen Hoodie <br/>50% discount</p>
+
         </div>
     );
 }
