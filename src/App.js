@@ -31,7 +31,7 @@ function App(){
             <p>product1: {productName}</p>
             <p>description1: {productDescription}</p>
             <p>price: ${price}</p>
-            <button>Buy</button>
+            <button>-</button> 1 <button>+</button> {' '}<button>Buy</button>
 
 
 
