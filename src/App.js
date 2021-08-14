@@ -15,7 +15,8 @@ function App(){
         <div className = "App">
             <h1>{storeName}</h1>
 
-            <p>address: {city} - {house} - {street} - {zipCode} - {phoneNumber}</p>
+            <p>Address: {city} - {house} - {street} - {zipCode} -</p>
+            <p>Phone: {phoneNumber}</p>
 
         </div>
     );
