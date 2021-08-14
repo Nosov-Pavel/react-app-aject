@@ -7,7 +7,10 @@ function App(){
     const street = '7Avenu';
     const zipCode = '32903';
     const phoneNumber = '+1321116108';
-    const brand = 'I Am Who I Am'
+    const brand = 'I Am Who I Am';
+    const productName = 'jhgjhv';
+    const productDescription = 'bljbkjb';
+    const price = 99.99 ;
 
 
 
@@ -23,6 +26,9 @@ function App(){
             <p>Clothes made from natural linen <br/>50% discount</p>
             <hr/>
             <h2>{brand}</h2>
+
+            <hr/>
+            <p></p>
 
         </div>
     );
