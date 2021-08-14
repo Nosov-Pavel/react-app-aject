@@ -11,6 +11,7 @@ function App(){
     const productName = 'jhgjhv';
     const productDescription = 'bljbkjb';
     const price = 99.99 ;
+    const footerMenu = ['Contacts', 'About us', 'Delivery options', 'Facebook' ];
 
 
 
@@ -35,7 +36,10 @@ function App(){
 
             <hr/>
             <ul>
-                <li>about us</li>
+                <li>{footerMenu[0]}</li>
+                <li>{footerMenu[1]}</li>
+                <li>{footerMenu[2]}</li>
+                <li>{footerMenu[3]}</li>
             </ul>
 
 
