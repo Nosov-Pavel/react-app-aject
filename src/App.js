@@ -1,7 +1,15 @@
+import Footer from "./Footer";
+import Header from "./Header";
+import Map from "./Map";
+import Contact from "./Contact";
 
 function App(){
     return(
         <div className='App'>
+            {Footer}
+            {Header}
+            {Map}
+            {Contact}
 
         </div>
     );
